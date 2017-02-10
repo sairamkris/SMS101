@@ -32,7 +32,6 @@ public class MySMSReceiver extends BroadcastReceiver {
         Bundle bundle = intent.getExtras();
         if (bundle != null) {
 
-
             /* Get all messages contained in the Intent*/
             SmsMessage[] messages =
                     Telephony.Sms.Intents.getMessagesFromIntent(intent);

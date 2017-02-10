@@ -1,15 +1,12 @@
 package com.example.neusoft.mysmsapplication;
 
-import android.app.PendingIntent;
 import android.content.ContentResolver;
 import android.content.Intent;
 import android.database.Cursor;
+import android.os.Bundle;
 import android.provider.ContactsContract;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.telephony.SmsManager;
 import android.util.Log;
-import android.widget.Toast;
 
 public class MainSMSActivity extends AppCompatActivity {
 
